@@ -1,0 +1,50 @@
+---
+title: "R_programming_module_1"
+author: "Austen"
+date: "8/13/2025"
+output: pdf_document
+---
+
+```{r}
+#Objects in R
+#five 'atomic' classes of objects
+#1. character
+#2. numeric (same as float)
+#3. integer
+#4. complex
+#5. logical
+
+#vector, one of the most simple objects
+#vectors can only contain one type of data, but LISTS can have different types of data (lists are represented as vectors)
+
+#empty vectors can be made with vector(data_type, vector_length)
+x <- vector('numeric', length = 10)
+
+#c() makes vector objects
+
+x <- c(.5, .6) ## numeric
+x <- c(TRUE, FALSE) ## logical
+x <- c(T, F) #logical
+x <- c('a', 'b', 'c') #character
+x <- 9:29 #integer
+x <- x(1+0i, 2+4i) #complex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
